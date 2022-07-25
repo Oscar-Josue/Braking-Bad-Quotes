@@ -7,7 +7,7 @@ const { counter, incrementar,aleatorio,decrementar } = useCounter();
 const { data, isLoading } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
 const { quote, author } = !!data && data[0];
 console.log(counter)
-  if(isLoading) { return ( <img src="../breaking-bad.png" alt="icon" /> ) } 
+  if(isLoading) { return ( <img src="https://res.cloudinary.com/dguiy2c1z/image/upload/v1658715000/mxrzatiskgl4xxvtwtv9.png" alt="icon" /> ) } 
 
   return (
     <>
